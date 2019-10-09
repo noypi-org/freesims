@@ -1,0 +1,5 @@
+url: https://noypi-org.github.io/freesims/
+
+jekyll_get:
+  - data: sms
+    json: 'https://api.pinoydev.org/sms.json'

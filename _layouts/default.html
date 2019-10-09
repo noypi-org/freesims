@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include header.html %}
+</head>
+<body>
+  <section class="hero is-primary">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">  
+          <div class="navbar-brand">
+            <a class="navbar-item" href="{{site.url}}">
+              <img src="{{ site.url }}/assets/img/dual-sim.png" alt="FreeSIMs">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>        
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h4 class="title is-4">FreeSIMs.ml</h4>
+        <h6 class="subtitle is-6">Disposable Phone Numbers</h6>
+      </div>
+    </div>
+  </section>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <aside class="menu">
+              <p class="menu-label">Phone Numbers</p>
+              <ul class="menu-list" id="phonenumbers">
+                <li><a href="#639321892411">639321892406</a></li>
+                <li><a href="#639321892558">639321892558</a></li>
+                <li><a href="#639321892411">639321892411</a></li>
+                <li><a href="#639321892552">639321892552</a></li>
+                <li><a href="#639321892557">639321892557</a></li>
+                <li><a href="#639321892396">639321892396</a></li>	
+              </ul>
+            </aside>
+          </div>
+          <div class="column is-four-fifths">
+          {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include footer.html %}
+</body>
+</html>
